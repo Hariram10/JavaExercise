@@ -18,16 +18,16 @@ public class Email {
 		super();
 		this.firstName = firstName;
 		this.lastname = lastname;
-		System.out.println("Email Created for "+ this.firstName+" "+this.lastname);
+	//	System.out.println("Email Created for "+ this.firstName+" "+this.lastname);
 		
 		this.department = getDepartment();
-		System.out.println("Depaartment is "+ department);
+	//	System.out.println("Depaartment is "+ department);
 		
 		this.password = randomPassword(defaultPasswordLength); 
-		System.out.println("Your Password is "+ password);
+	//	System.out.println("Your Password is "+ password);
 		
 		this.email = generateEmailId();
-		System.out.println("Your mail id is "+ email);
+	//	System.out.println("Your mail id is "+ email);
 	}
 
 
